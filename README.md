@@ -7,10 +7,12 @@ Hello again from the land of Faerun! 👋
 Welcome to my **Python for Everybody Assignments** repository! 🎉
 
 Embarking on a coding journey, one assignment at a time. This repo is a testament to my commitment to mastering Python, blending structured learning with hands-on projects. Whether you're here to peek into my learning process or to find some inspiration for your own coding quests, you're in the right place!
+- I actually started this course a year ago with zero python knowledge. I got through 3 modules and stepped away for a year. Now that I am back to writing code, and having done other python learning platforms, I look back at this code and I can already see a myriad of ways that I would write it differently now. I aim to continue to grow my skills as I finish the rest of the modules and hopefully write cleaner and better code!
 
 ## Repository Structure 🗂️
 
 I've organized this repository to keep things neat and navigable. Each **course** has its own folder, and within those, each **chapter** houses its respective assignments. Think of it as my Python journey on display...
+- In each Chapter you'll find a README that outlines the purpose of each assignment and any *.txt files that are needed to run the program. (Any of the *.txt files I've included here are free to DL for anyone)
 
 ## What’s Inside? 🧐
 
