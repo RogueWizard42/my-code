@@ -18,15 +18,18 @@ This project started as a fun learning exercise—an exploration of Python progr
 - I've also posted the test of the instructions that I have used for the bot, I went through dozens of iterations trying to get it to stop giving up the solution unless the user explicitly asks for it - Working on it!
 - Everything here is a learning experiment, built through trial, error, and probably more Stack Overflow searches than I'd like to admit.
 
-🧪 Features (So Far)
+## 🧪 Features (So Far)
 
-✅ Sandboxed Code Execution – A (hopefully) safe way to test Python snippets.
+- ✅ **Sandboxed Code Execution** – A (hopefully) safe way to test Python snippets.  
+- ✅ **Code Complexity Analyzer** – Attempts to rank scripts based on arbitrary scoring metrics.  
+- ✅ **RPG-Themed Learning Experience** – Because normal coding is too mainstream.  
+- ✅ **Bookmarking System for Long-Term Projects** – Allows users to **save their progress** and **resume later** by using predefined **keywords** in their session:  
+   - 🏁 **"let's begin"** → Signals the start of a coding session.  
+   - 📌 **"done for the day"** → Signals the end of a session and triggers a save prompt.  
+   - 📜 **Saved transcripts can be uploaded later** to continue where you left off.  
 
-✅ Code Complexity Analyzer – Attempts to rank scripts based on arbitrary scoring metrics.
+💡 *(Planned expansions include more interactive coding challenges, potential integrations, and maybe even some actual deployment. But one step at a time...)*  
 
-✅ RPG-Themed Learning Experience – Because normal coding is too mainstream.
-
-(Planned expansions include more interactive coding challenges, potential integrations, and maybe even some actual deployment. But one step at a time...)
 
 💡 Why I Built This
 
