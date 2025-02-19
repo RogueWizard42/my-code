@@ -15,7 +15,7 @@ This project started as a fun learning exercise—an exploration of Python progr
 - There’s no server or API integration at this stage—just code, structure, and a bit of organized chaos.
 - The sandbox system allows for safe execution of Python code, while the code complexity analyzer is an experimental feature that (loosely) evaluates script complexity.
 - One bit I'm still trying to iron out is that the AI gives the code solution far too quickly. The intent is for it to walk you through it in plain english (Ex: "You need to first create an empty list, and then set a counter to 0") 
-- I've also posted the test of the instructions that I have used for the bot, I went through dozens of iterations trying to get it to stop giving up the solution unless the user explicitly asks for it - Working on it!
+- I've also posted the set of instructions that I have used for the bot, I went through dozens of iterations trying to get it to stop giving up the solution unless the user explicitly asks for it - Working on it!
 - Everything here is a learning experiment, built through trial, error, and probably more Stack Overflow searches than I'd like to admit.
 
 ## 🧪 Features (So Far)
