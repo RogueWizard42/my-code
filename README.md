@@ -1,2 +1,2 @@
 # bookbot
-Boot.dev boox project
+Boot.dev bookbot project
