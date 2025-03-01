@@ -6,9 +6,6 @@ from stats import sorting_hat # Importing the function from the stats.py file
 import sys
 
 
-# Prompting the user to enter the path of the book they want to analyze
-
-
 def get_text_book(file_path):
     with open(file_path, 'r', encoding = 'utf-8') as f:
         return f.read()
