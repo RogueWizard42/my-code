@@ -6,7 +6,10 @@
 # two.
 
 import random
+import time
 import sys
+
+
 
 # Introduction
 def introduction():
@@ -32,23 +35,43 @@ def cave_choice():
                 return cave
             if cave == 3:
                 print("You have chosen to flee! Coward!")
-                break
+                print("Game over.")
+                sys.exit()
             
         except ValueError:
             print("You must choose 1, 2, or 3! Perhaps fear has clouded your judgement. Try again.")
         
         
-introduction()
 
-# Check the cave outcome
-choice = cave_choice()
-if choice is None:
-    print("Game Over")
-    sys.exit()
+
+def cave_encounter():
+    print(f"You have chosen cave {cave}. Go forth and face your destiny!")
+    time.sleep(2)
+    print("You step into the cave entrance and see a large dragon in front of you.")
+    time.sleep(2)
+    print("The dragon spreads its wings and...")
+    time.sleep(3)
     
-    
-    
-
-
-
-# Ask the player if they want to play again
+    surprise = random.choice([1, 2])
+    if cave == surprise:
+        print("Let's out a friendly roar, gives you pile of gold, and invites you to sit down and share a meal.")
+    else: 
+        print("Leaps at you and devours you in one bite!")
+        print("...")
+        time.sleep(2)
+        print("You have died a horrible death.")
+        
+while True:
+    introduction()
+    cave = cave_choice()
+    cave_encounter()
+    print("Do you wish to challenge the fates again adventurer? Enter yes or no.")
+    retry = input()
+    if retry == "yes" or retry == "Yes" or retry == "y":
+        continue
+    else:
+        print("Game over. Thanks for playing!")
+        break        
+        
+        
+        
