@@ -19,7 +19,7 @@ A simple Python script that reads a CSV file, extracts all valid email addresses
 
 - `csv_emails.py` — main script  
 - `employees.csv` — sample CSV input file with 25 fake contacts  
-- `.gitignore` — ignores unnecessary files (e.g., compiled `.pyc`, sample data)  
+- `.gitignore` — ignores unnecessary files (e.g., sample data)  
 - `README.md` — this file  
 
 ---
